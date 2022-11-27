@@ -108,16 +108,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 270px;
-  width: 100%;
+  height: 540px;
+  width: 50%;
 }
 .vidExample {
   background: url('../img/vid.gif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 270px;
-  width: 100%;
+  height: 540px;
+  width: 50%;
 }
 .faqAcc {
   background-color: #eee;
@@ -245,6 +245,9 @@ th, td {
 .co4{
   background: yellow;
 }
+.adapted{
+  display: none;
+}
 @media (max-width: 768px) {
 .menu {
  display:none;
@@ -254,6 +257,15 @@ th, td {
  left: 0;
  text-align: center;
  padding: 16px 0;
+}
+.adapted{
+  display: block;
+}
+table {
+  display: none;
+}
+.holderOfFive {
+  height: 1080px;
 }
 .formRow {
   flex-direction: column;
